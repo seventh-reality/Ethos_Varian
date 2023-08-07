@@ -41,8 +41,20 @@
        h5 {
        text-align: center;
        margin-top:-5px; 
-       font-family: myFirstFont;
-       src: url(https://fonts.google.com/specimen/Open+Sans);
+       @font-face {
+   font-family: myFirstFont;
+   src: url(https://fonts.google.com/specimen/Open+Sans);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
        color:Gray;
        font-size: 10px;
          }
